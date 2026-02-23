@@ -13,3 +13,6 @@ dependencies = [
   "litellm>=1.81.14",
   "ruff>=0.15.2",
 ]
+
+[tool.setuptools.packages.find]
+include = ["agent*"]
