@@ -1,8 +1,10 @@
 import asyncio
-from agent.tools import search_artist
+
+from agent.tools import search_artist, get_discography
+
 
 async def main():
-    result = await search_artist("Metallica")
+    result = await get_discography("Metallica")
     print(result)
 
 
